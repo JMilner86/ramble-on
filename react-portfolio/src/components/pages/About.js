@@ -1,9 +1,14 @@
 import React from 'react';
 
+
 export default function About() {
   return (
     <div>
       <h1>About Me Page</h1>
+      
+      <img src={require(`../../images/pic.jpg`)}
+            alt={`My wife and Me`}/>
+
       <p>
             Hello! My name is Jonah Milner. I am a full stack web developer that graduated from the Web Development Bootcamp from the University of Utah.
             I discovered a love for writing code and creating new things and decided to pursue a career in Web Development. A little bit about me, my favorite band of all time,
