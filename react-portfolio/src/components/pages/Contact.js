@@ -35,8 +35,8 @@ function Contact() {
 
   return (
     
-    <section>
-      <h1 data-testid="h1tag">Contact me</h1>
+    <section className='page'>
+      <h2 data-testid="h1tag">Contact me</h2>
       <form id="contact-form" onSubmit={handleSubmit}>
         <div>
           <label htmlFor="name">Name:</label>
@@ -57,7 +57,7 @@ function Contact() {
         )}
         <button data-testid="button" type="submit">Submit</button>
         <a href='https://www.linkedin.com/in/jonah-milner-69b224226/'>LinkedIn Profile</a>
-        
+
       </form>
     </section>
 

@@ -1,10 +1,10 @@
 import React from 'react';
-import pdf from '../../pdf/Jonah Milner resume.pdf';
+import pdf from '../../pdf/pdf-resume.pdf';
 
 export default function Resume() {
   return (
-    <div>
-      <h1>Resume</h1>
+    <div className='page'>
+      <h2>Resume</h2>
       <div>
       <a href={pdf} target="_blank" rel="noreferrer">
         My Resume pdf
