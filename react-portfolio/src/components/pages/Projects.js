@@ -6,49 +6,53 @@ export default function Portfolio() {
       <h2>Projects</h2>
 
 
-    <div id=''> 
-      <a href="https://nesnah1307.github.io/time-killer-3000/"><h4>Time Killer 3000</h4>
-        <img id='timeKiller' src={require(`../../images/time.png`)}
+<div id='columns'>
+     <div class='column1'>
+    <div class='card'> 
+      <a href="https://nesnah1307.github.io/time-killer-3000/"><h4 class='projectTitle'>Time Killer 3000</h4>
+        <img id='timeKiller' src={require(`../../images/timeKiller.png`)}
             alt={`Time Killer 3000`}/></a>
-      <a href='https://github.com/Nesnah1307/time-killer-3000'><h5>GitHub Repository</h5></a>
+      <a class="viewGithub" href='https://github.com/Nesnah1307/time-killer-3000'>View on GitHub</a> 
         </div>
 
-    <div id=''>
-    <a href='https://mighty-tor-32004.herokuapp.com/'><h4>Jarvis</h4>
+    <div class='card'>
+    <a href='https://mighty-tor-32004.herokuapp.com/'><h4 class='projectTitle'>Jarvis</h4>
     <img id='jarvis' src={require(`../../images/jarvis.png`)}
          alt={`Jarvis`}/></a>
-    <a href='https://github.com/JMilner86/jarvis'><h5>GitHub Repository</h5></a>
+    <a  class="viewGithub" href='https://github.com/JMilner86/jarvis'>View on GitHub</a>
         </div>  
 
-    <div id=''>
-    <a href='https://jmilner86.github.io/weather-app/'><h4>Weather App</h4>
+    <div class='card'>
+    <a href='https://jmilner86.github.io/weather-app/'><h4 class='projectTitle'>Weather App</h4>
     <img id='weather-app' src={require(`../../images/weather.png`)}
          alt={`Weather App`}/></a>
-    <a href='https://github.com/JMilner86/weather-app'><h5>GitHub Repository</h5></a>
+    <a class="viewGithub" href='https://github.com/JMilner86/weather-app'>View on GitHub</a>
         </div>
+     </div>
 
-    <div id=''>
-    <a href='https://jmilner86.github.io/readMe-generator/'><h4>README.md Generator</h4>
+     <div class='column2'>
+    <div class='card'>
+    <a href='https://jmilner86.github.io/readMe-generator/'><h4 class='projectTitle'>README.md Generator</h4>
     <img id='readMe' src={require(`../../images/readme.png`)}
          alt={`README.md Generator`}/></a>
-    <a href='https://github.com/JMilner86/readMe-generator'><h5>GitHub Repository</h5></a>
+    <a class="viewGithub" href='https://github.com/JMilner86/readMe-generator'>View on GitHub</a>
         </div>
 
-    <div id=''>
-    <a href='https://jmilner86.github.io/code-quiz/'><h4>Quiz game</h4>
+    <div class='card'>
+    <a href='https://jmilner86.github.io/code-quiz/'><h4 class='projectTitle'>Quiz game</h4>
     <img id='quiz' src={require(`../../images/quiz.png`)}
          alt={`Quiz`}/></a>
-    <a href='https://github.com/JMilner86/code-quiz'><h5>GitHub Repository</h5></a>
+    <a class="viewGithub" href='https://github.com/JMilner86/code-quiz'>View on GitHub</a>
     </div>
 
-    <div id=''>
-    <a href='https://jmilner86.github.io/JMilner-Portfolio/'><h4>First Porfolio</h4>
+    <div class='card'>
+    <a href='https://jmilner86.github.io/JMilner-Portfolio/'><h4 class='projectTitle'>First Porfolio</h4>
     <img id='firstPort' src={require(`../../images/port.png`)}
          alt={`First Portfolio`}/></a>
-    <a href='https://github.com/JMilner86/JMilner-Portfolio'><h5>GitHub Repository</h5></a>
+    <a class="viewGithub" href='https://github.com/JMilner86/JMilner-Portfolio'>View on GitHub</a>
     </div>
-
-
+</div>
+</div>
 
 
 

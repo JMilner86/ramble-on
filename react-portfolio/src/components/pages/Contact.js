@@ -38,25 +38,32 @@ function Contact() {
     <section className='page'>
       <h2 data-testid="h1tag">Contact me</h2>
       <form id="contact-form" onSubmit={handleSubmit}>
-        <div>
+        <div id='contactContainer'>
+        <div class='input'>
           <label htmlFor="name">Name:</label>
           <input type="text" name="name" defaultValue={name} onBlur={handleChange} />
         </div>
-        <div>
+        <div class='input'>
           <label htmlFor="email">Email address:</label>
           <input type="email" name="email" defaultValue={email} onBlur={handleChange} />
         </div>
-        <div>
+        <div class='input'>
           <label htmlFor="message">Message:</label>
-          <textarea name="message" rows="5" defaultValue={message} onBlur={handleChange} />
+          <textarea name="message" rows="3" defaultValue={message} onBlur={handleChange} />
         </div>
+
         {errorMessage && (
-          <div>
+          <div id='error'>
             <p className="error-text">{errorMessage}</p>
           </div>
         )}
-        <button data-testid="button" type="submit">Submit</button>
-        <a href='https://www.linkedin.com/in/jonah-milner-69b224226/'>LinkedIn Profile</a>
+        <button id='submit' data-testid="button" type="submit">Submit</button>
+        </div>
+
+        <ul id='contactList'>
+       <li class='listEl'><a href='https://www.linkedin.com/in/jonah-milner-69b224226/'>LinkedIn Profile</a></li>
+       <li class='listEl'><a href='https://github.com/JMilner86'>GitHub Profile</a></li>
+        </ul>
 
       </form>
     </section>

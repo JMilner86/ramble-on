@@ -29,12 +29,12 @@ export default function PortfolioContainer() {
   return (
     <div>
       <header>
-        <h1>Jonah Milner</h1>
+        <h1 id='name'>Jonah Milner</h1>
       <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
       </header>
       {renderPage()}      
       <footer>
-        <h3>Created By Jonah Milner</h3>
+        <h5 id='footer'>Created by: Jonah Milner</h5>
       </footer>
     </div>
   );

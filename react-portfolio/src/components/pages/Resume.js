@@ -4,22 +4,24 @@ import pdf from '../../pdf/pdf-resume.pdf';
 export default function Resume() {
   return (
     <div className='page'>
-      <h2>Resume</h2>
-      <div>
-      <a href={pdf} target="_blank" rel="noreferrer">
-        My Resume pdf
+      <h2>My Resume</h2>
+      <div id='resumeContainer'>
+      <a id='resume' href={pdf} target="_blank" rel="noreferrer">
+        <h5>Download PDF</h5>
       </a>
     </div>
 
+    <div id='proficienciesContainer'> 
     <ul>
-        <h2>Proficiencies</h2>
-        <li><h3>JavaScript</h3></li>
-        <li><h3>Node.js</h3></li>
-        <li><h3>HTML, CSS</h3></li>
-        <li><h3>React</h3></li>
-        <li><h3>SQL, NoSQL, MongoDB</h3></li>
-        <li><h3>MERN stack</h3></li>
+        <h3>Proficiencies</h3>
+        <li><h5>JavaScript</h5></li>
+        <li><h5>Node.js</h5></li>
+        <li><h5>HTML, CSS</h5></li>
+        <li><h5>React</h5></li>
+        <li><h5>SQL, NoSQL, MongoDB</h5></li>
+        <li><h5>MERN stack</h5></li>
     </ul>
+    </div>
     </div>
   );
 }
