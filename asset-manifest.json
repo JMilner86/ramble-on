@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/ramble-on/static/css/main.424046ba.css",
+    "main.js": "/ramble-on/static/js/main.2be6c669.js",
+    "static/media/pic.jpg": "/ramble-on/static/media/pic.c83765324e906c2c8e21.jpg",
+    "static/media/jarvis.png": "/ramble-on/static/media/jarvis.90e4efb1c24b20db9184.png",
+    "static/media/port.png": "/ramble-on/static/media/port.6cc8ddccd317cb433eef.png",
+    "static/media/weather.png": "/ramble-on/static/media/weather.749b0137d7d0e3042926.png",
+    "static/media/pdf-resume.pdf": "/ramble-on/static/media/pdf-resume.96052e322f3e1f40e3bd.pdf",
+    "static/media/readme.png": "/ramble-on/static/media/readme.736ce0b7ef69cd56c33f.png",
+    "static/media/timeKiller.png": "/ramble-on/static/media/timeKiller.d099d2ff208e04472168.png",
+    "static/media/quiz.png": "/ramble-on/static/media/quiz.7fa2b0770f89bbf4349a.png",
+    "index.html": "/ramble-on/index.html",
+    "main.424046ba.css.map": "/ramble-on/static/css/main.424046ba.css.map",
+    "main.2be6c669.js.map": "/ramble-on/static/js/main.2be6c669.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.424046ba.css",
+    "static/js/main.2be6c669.js"
+  ]
+}
