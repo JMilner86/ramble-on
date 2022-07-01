@@ -51,6 +51,13 @@ export default function Portfolio() {
          alt={`First Portfolio`}/></a>
     <a class="viewGithub" href='https://github.com/JMilner86/JMilner-Portfolio'>View on GitHub</a>
     </div>
+
+    <div class='card'>
+    <a href='https://regal-help.herokuapp.com/'><h4 class='projectTitle'>Regal</h4>
+    <img id='firstPort' src={require(`../../images/screenshot2.png`)}
+         alt={`First Portfolio`}/></a>
+    <a class="viewGithub" href='https://github.com/BlinkingHeimdall/Regal'>View on GitHub</a>
+    </div>
 </div>
 </div>
 
