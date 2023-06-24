@@ -1,3 +1,6 @@
+// Why am I not using components for this page? I really should be using components for this page, that is the entire point of react... 
+
+
 import React from 'react';
 
 export default function Portfolio() {

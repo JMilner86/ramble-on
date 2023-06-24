@@ -11,6 +11,8 @@ export default function Resume() {
       </a>
     </div>
 
+
+{/* Well this is ugly, there must be a better way to do this, I really should have the styling in a class for all these <li> tags... */}
     <div id='proficienciesContainer'> 
     <ul>
         <h3>Proficiencies</h3>

@@ -1,22 +1,24 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #B1C3F4;
+  background-color: #b1c3f4;
 }
 
-.nav, nav-tabs {
+.nav,
+nav-tabs {
   display: flex;
   justify-content: flex-end;
   padding-right: 10px;
-  color: #272B36;
+  color: #272b36;
 }
 
+/* Dear heavens, why did I use SO MANY ID'S INSTEAD OF CLASSES  */
 #nav-item {
-  color: #272B36;
+  color: #272b36;
 }
 
 #name {
@@ -29,7 +31,7 @@ body {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
 
@@ -39,6 +41,7 @@ img {
   border-radius: 2px;
 }
 
+/* MORE IDS WHY */
 #pic {
   border-radius: 5px;
   max-width: 300px;
@@ -48,12 +51,12 @@ img {
 #aboutP {
   font-weight: bold;
   display: flex;
-  color: #272B36;
+  color: #272b36;
   margin: 20px;
-  border: 2px solid #565E75;
+  border: 2px solid #565e75;
   border-radius: 4px;
   padding: 10px;
-  background-color:#B1C3F4;
+  background-color: #b1c3f4;
 }
 
 #picContainer {
@@ -64,15 +67,16 @@ img {
   padding-top: 10px;
 }
 
-
+/* why did I feel the need to have a class for the whole page? I feel like there's a better way to do this... */
 .page {
   display: flex;
   flex-direction: column;
-  background-color: #8491B5;
+  background-color: #8491b5;
 }
 
+/* WHY */
 h1 {
-  color: #272B36;
+  color: #272b36;
   font-weight: bold;
 }
 
@@ -80,7 +84,7 @@ h2 {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  color: #272B36;
+  color: #272b36;
 }
 
 .card {
@@ -88,7 +92,7 @@ h2 {
   flex-wrap: wrap;
   flex-direction: column;
   margin: 10px;
-  background-color: #272B36;
+  background-color: #272b36;
   max-height: 100%;
   max-width: auto;
   align-content: center;
@@ -100,7 +104,8 @@ h2 {
   color: white;
 }
 
-.viewGithub, a:hover {
+.viewGithub,
+a:hover {
   color: white;
 }
 
@@ -161,7 +166,7 @@ h2 {
   background-color: aliceblue;
   padding: 10px;
   font-weight: bolder;
-  color: #272B36;
+  color: #272b36;
 }
 
 #error {
@@ -172,7 +177,7 @@ h2 {
 
 label {
   font-weight: bold;
-  color: #272B36;
+  color: #272b36;
   padding: 5px;
 }
 
@@ -181,13 +186,15 @@ label {
   list-style: none;
 }
 
-.listEl, a {
+.listEl,
+a {
   text-decoration: none;
-  color: #272B36;
+  color: #272b36;
   font-weight: bold;
   padding-top: 10px;
 }
 
-.listEl, a:hover {
+.listEl,
+a:hover {
   text-decoration: none;
 }
