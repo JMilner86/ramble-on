@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import NavTabs from './NavTabs';
+import Nav from './NavTabs';
 import About from './pages/About';
 import Contact from './pages/Contact';
 import Portfolio from './pages/Projects';
@@ -21,15 +21,6 @@ export default function PortfolioContainer() {
     if (currentPage === 'Resume') {
       return <Resume />
     }
-    // switch(any) {
-    //   case currentPage === 'About':
-    //     return <About />
-    //     break;
-    //   case currentPage === 'Projects':
-    //     return <Projects />
-    //   case currentPage === 'Resume':
-    //     return <Resume />
-    }
   };
 
   const handlePageChange = (page) => setCurrentPage(page);
@@ -38,7 +29,7 @@ export default function PortfolioContainer() {
     <div>
       <header>
         <h1 id='name'>Jonah Milner</h1>
-      <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
+      <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
       </header>
       {renderPage()}      
       <footer>
@@ -46,4 +37,5 @@ export default function PortfolioContainer() {
       </footer>
     </div>
   );
+}
 
